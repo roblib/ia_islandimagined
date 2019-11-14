@@ -1,0 +1,27 @@
+name = ia_islandimagined
+description = Please provide a description for your theme.
+base theme = islandarchives
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/ia-islandimagined.reset.css
+stylesheets[all][] = css/ia-islandimagined.styles.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/ia-islandimagined.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[navigation] = Navigation
+regions[header] = Header
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[footer] = Footer
