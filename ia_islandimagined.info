@@ -8,7 +8,7 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/ia-islandimagined.reset.css
+;stylesheets[all][] = css/ia-islandimagined.reset.css
 stylesheets[all][] = css/ia-islandimagined.styles.css
 
 ; ========================================
