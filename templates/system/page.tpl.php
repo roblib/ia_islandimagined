@@ -40,7 +40,7 @@ $image_path = drupal_get_path('theme', 'islandarchives') . '/images/';
           <?php echo file_get_contents( $image_path . "upei.svg"); ?>
         </a>
         <?php if ($site_name): ?>
-        <a href="<?php print $front_page; ?>" class="site-branding__name" title="<?php print t('Home'); ?>" rel="home">IslandArchives </a>
+        <a href="https://islandarchives.ca" class="site-branding__name" title="<?php print t('Home'); ?>" rel="home">IslandArchives </a>
         <?php endif; ?>
         <?php if ($site_slogan): ?>
         <h2 class="site-branding__slogan"><?php print $site_slogan; ?></h2>
