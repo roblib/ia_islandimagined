@@ -4,4 +4,7 @@
 .block--book-navigation .menu {
   display: initial; }
 
+.islandora-large-image-content {
+  width: 100% !important; }
+
 /*# sourceMappingURL=ia-islandimagined.styles.css.map */
